@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.246,C:\최신버전\Gold_Stock_v45.dproj=C:\최신버전\Gold_Stock_v465.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.242,C:\최신버전\Gold_Stock_v45.dproj=C:\최신버전\Gold_Stock_v44.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.635,=E:\STOCK_DB\STOCK_PRICE\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.368,C:\최신버전\Gold_Stock_v48.dproj=C:\최신버전\Gold_Stock_v47.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.488,C:\최신버전\Gold_Stock_v53.dproj=C:\최신버전\Gold_Stock_v54.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.571,C:\최신버전\Gold_Stock_v465.dproj=C:\최신버전\Gold_Stock_v46.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,C:\최신버전\Gold_Stock_v51.dproj=C:\최신버전\Gold_Stock_v52.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.844,D:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v41.dproj=D:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v42.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.100,C:\최신버전\Gold_Stock_v43.dproj=C:\최신버전\Gold_Stock_v44.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.599,E:\STOCK_DB\STOCK_PRICE\market_analysis.dfm=E:\STOCK_DB\STOCK_PRICE\Unit2.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.797,E:\STOCK_DB\STOCK_PRICE\Local_Stock\StockAnalyzer.dproj=E:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v01.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.266,E:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v01.dproj=E:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v02.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.874,E:\STOCK_DB\STOCK_PRICE\Local_Stock\market_analysis.pas=</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.020,C:\최신버전\Gold_Stock_v47.dproj=C:\최신버전\Gold_Stock_v46.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.305,C:\최신버전\Gold_Stock_v42.dproj=C:\최신버전\Gold_Stock_v43.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.599,E:\STOCK_DB\STOCK_PRICE\market_analysis.pas=E:\STOCK_DB\STOCK_PRICE\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.633,C:\최신버전\Gold_Stock_v49.dproj=C:\최신버전\Gold_Stock_v50.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.993,C:\최신버전\Gold_Stock_v53.dproj=C:\최신버전\Gold_Stock_v52.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.347,D:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v40.dproj=D:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v02.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.980,D:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v40.dproj=D:\STOCK_DB\STOCK_PRICE\Local_Stock\Gold_Stock_v41.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.362,C:\최신버전\Gold_Stock_v50.dproj=C:\최신버전\Gold_Stock_v51.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.317,C:\최신버전\Gold_Stock_v49.dproj=C:\최신버전\Gold_Stock_v48.dproj</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="analisys.pas"/>
+    <File Path="analisys.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

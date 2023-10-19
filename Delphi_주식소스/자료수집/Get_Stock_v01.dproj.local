@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.131,C:\자료수집\Get_Stock_v01.dproj=C:\자료수집\Get_stockinfo.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.888,D:\Laptop_backup\STOCK_PRICE\자료수집모듈\analisys.pas=D:\Laptop_backup\STOCK_PRICE\자료수집모듈\stockinfo.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.888,D:\Laptop_backup\STOCK_PRICE\자료수집모듈\analisys.dfm=D:\Laptop_backup\STOCK_PRICE\자료수집모듈\stockinfo.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.819,D:\Laptop_backup\STOCK_PRICE\자료수집모듈\StockAnalyzer.dproj=D:\Laptop_backup\STOCK_PRICE\자료수집모듈\Get_stockinfo.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

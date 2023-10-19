@@ -1,0 +1,27 @@
+118.129.159.205/mobilestock/noticecheck.aspx?device=android&v=598&dv=22&uid=SDID-a72bd6ce9b571264aea09674b750b7d8d8d94db5&h=7201b4f98e964a17&m=TEdNLVYzMDBL&vn=5.1.148.598&nt=1&nst=0&op=SK+Telecom+Co.+Ltd.&nm=0&thm=0&f2=2&tb=0
+118.129.159.205/mobilestock/corpinfo/stockcodespecial.aspx?device=android&v=598
+
+
+http://mobilestock.etomato.com/mobilestock/corpinfo/StockCode.aspx?device=android
+http://mobilestock.etomato.com/mobilestock/corpinfo/StockCode2.aspx?device=android
+
+http://mobilestock.etomato.com/mobilestock/tradeserver2.aspx
+118.129.159.205/mobilestock/corpinfo/StockCode2.aspx?device=android&v=616
+
+
+http://mobilestock.etomato.com/MobileNewsInfo/Corp.aspx?src=device&device=android&v=616&uid=SDID-a72bd6ce9b571264aea09674b750b7d8d8d94db5&h=7201b4f98e964a17&vn=6.1.1.616&nm=0&thm=0&f2=2&code=005930
+http://m.etomato.com/corp/ToTal.aspx?code=005930&t=0&thm=0
+http://m.etomato.com/corp/StockHolder.aspx?code=005930&t=1&thm=0
+http://m.etomato.com/corp/FinancialRatio.aspx?code=005930&t=2&thm=0
+http://m.etomato.com/corp/Financial.aspx?code=005930&t=3&thm=0
+
+Host: mobilestock.etomato.com
+
+http://mobilestock.etomato.com/MobileNewsInfo/news.aspx?src=device&device=android&v=616&uid=SDID-a72bd6ce9b571264aea09674b750b7d8d8d94db5&h=7201b4f98e964a17&vn=6.1.1.616&nm=0&thm=0&f2=2&code=005930
+http://mobilestock.etomato.com/MobileNewsInfo/News.aspx?code=5930&t=0&thm=0
+http://mobilestock.etomato.com/MobileNewsInfo/News.aspx?code=5930&t=1&thm=0
+http://mobilestock.etomato.com/MobileNewsInfo/News.aspx?code=5930&t=2&thm=0
+http://mobilestock.etomato.com/MobileNewsInfo/News.aspx?code=5930&t=3&thm=0
+
+http://mobilestock.etomato.com/MobileNewsInfo/Corp.aspx?src=device&device=android&v=616&uid=SDID-a72bd6ce9b571264aea09674b750b7d8d8d94db5&h=7201b4f98e964a17&vn=6.1.1.616&nm=0&thm=0&f2=2&code=005930
+

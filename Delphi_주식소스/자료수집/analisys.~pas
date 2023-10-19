@@ -1,0 +1,101 @@
+unit analisys;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, DB, ADODB, TeEngine, Series, Grids, DBGrids, ExtCtrls, TeeProcs,
+  Chart, DbChart, StdCtrls;
+
+type
+  TForm1 = class(TForm)
+    DBChart1: TDBChart;
+    ADOConnection1: TADOConnection;
+    DataSource1: TDataSource;
+    Series3: TLineSeries;
+    Series1: TLineSeries;
+    Series2: TLineSeries;
+    ADOQuery1: TADOQuery;
+    Series4: TLineSeries;
+    DBChart2: TDBChart;
+    LineSeries1: TLineSeries;
+    LineSeries2: TLineSeries;
+    LineSeries3: TLineSeries;
+    LineSeries4: TLineSeries;
+    DBChart3: TDBChart;
+    LineSeries5: TLineSeries;
+    LineSeries6: TLineSeries;
+    LineSeries7: TLineSeries;
+    LineSeries8: TLineSeries;
+    Series5: TLineSeries;
+    GroupBox1: TGroupBox;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    RadioButton3: TRadioButton;
+    RadioButton4: TRadioButton;
+    RadioButton5: TRadioButton;
+    Button1: TButton;
+    Edit1: TEdit;
+    Button2: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+   sql,DD : string;
+
+begin
+   if RadioButton1.Checked then  DD:='10'
+   else if RadioButton2.Checked then DD:='20'
+   else if RadioButton3.Checked then DD:='60'
+   else if RadioButton4.Checked then DD:='120'
+   else if RadioButton5.Checked then DD:='240';
+
+
+   ADOQuery1.Close;
+   ADOQuery1.SQL.Clear;
+   sql :='SELECT * FROM (select row_number() OVER (PARTITION BY CCODE ORDER BY DDATE DESC) AS ROW, * ';
+   sql := sql + ' FROM DAILY_KOSP WHERE CCODE=''' + TRIM(EDIT1.TEXT) + '''  AND DDATE <= convert(varchar, getdate(), 112) ) A ';
+   sql := sql + ' WHERE A.ROW < ' + DD + ' order by ddate';
+   ADOQuery1.SQL.Add(sql);
+   ADOQuery1.Open;
+
+
+
+end;
+
+procedure TForm1.Button2Click(Sender: TObject);
+var
+   sql,DD : string;
+
+begin
+   if RadioButton1.Checked then  DD:='10'
+   else if RadioButton2.Checked then DD:='20'
+   else if RadioButton3.Checked then DD:='60'
+   else if RadioButton4.Checked then DD:='120'
+   else if RadioButton5.Checked then DD:='240';
+
+
+   ADOQuery1.Close;
+   ADOQuery1.SQL.Clear;
+   sql :='SELECT * FROM (select row_number() OVER (PARTITION BY CCODE ORDER BY DDATE DESC) AS ROW, * ';
+   sql := sql + ' FROM DAILY_KOSD WHERE CCODE=''' + TRIM(EDIT1.TEXT) + '''  AND DDATE <= convert(varchar, getdate(), 112) ) A ';
+   sql := sql + ' WHERE A.ROW < ' + DD + ' order by ddate';
+   ADOQuery1.SQL.Add(sql);
+   ADOQuery1.Open;
+
+end;
+
+end.

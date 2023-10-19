@@ -1,0 +1,570 @@
+object Form1: TForm1
+  Left = 683
+  Top = 100
+  Caption = #51452#49885#51221#48372
+  ClientHeight = 738
+  ClientWidth = 591
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  Icon.Data = {
+    0000010003001010100001000400280100003600000010100000010008006805
+    00005E010000101000000100200068040000C606000028000000100000002000
+    0000010004000000000000000000000000000000000000000000000000000000
+    000000008000008000000080800080000000800080008080000080808000C0C0
+    C0000000FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF000000
+    00000000000000000777777000000000F88888870000000F57465688700000FD
+    916C444887000F859D5886C488700FF5589D886C88700F864F5D88EC68700F8C
+    48F888EEE8700F8646F888EC88700F884CCEEECE88700F887C6ECE688F700F8F
+    8777E8F888700FF88888888887700F000000000000700000000000000000F81F
+    E804F00FE804E007E804C003E8048001E8040000E8040000E8040000E8040000
+    E8040000E8040000E8040000E8040000E8040000E8040000E8043FFCE8042800
+    0000100000002000000001000800000000000000000000000000000000000000
+    000000000000000000007B150A003B007500713064009215000097190000991D
+    0B009B1F0E009E210100A0260500A1290000A92D0400A02F0C00B33D0600A433
+    1300AA381000AB3F1000A4361D00AB3D3200B2450900BF630800AE462000AF49
+    2200B4562D00BA5F2900AF4B3F00B7423A00B5593900E07D00008D265E00A84B
+    4500AE595900B4726B00DE800000DA840500DE9F0A00EA9B0000EB9E0000E096
+    0D00DCAE1100EDAC0600F1B20100F2B70100D6973300DAA13400ECB72B00EDC4
+    0800F0C00900F9CD2100C4826100DCBA7500E3B26100E9D769007D358D004300
+    C1005608CC007B35D0006D05E6007915ED008D1EA500BF7B84008D31D900843E
+    DE00A031F60080808000C2838400C5969F00D2A88E00D1B9A300E0C39F00D7C2
+    A500DBD0A600CDAACD00C0C0C000CBCBCB00D7C4C300D1C1C400DDDDD100DEDB
+    D400E3E8E800FFFFFF00022F00000450000006700000089000000AB000000BCF
+    00000EF0000020FF12003DFF31005BFF510079FF710098FF9100B5FFB100D4FF
+    D100FFFFFF0000000000142F000022500000307000003D9000004CB0000059CF
+    000067F0000078FF11008AFF31009CFF5100AEFF7100C0FF9100D2FFB100E4FF
+    D100FFFFFF0000000000262F0000405000005A700000749000008EB00000A9CF
+    0000C2F00000D1FF1100D8FF3100DEFF5100E3FF7100E9FF9100EFFFB100F6FF
+    D100FFFFFF00000000002F26000050410000705B000090740000B08E0000CFA9
+    0000F0C30000FFD21100FFD83100FFDD5100FFE47100FFEA9100FFF0B100FFF6
+    D100FFFFFF00000000002F1400005022000070300000903E0000B04D0000CF5B
+    0000F0690000FF791100FF8A3100FF9D5100FFAF7100FFC19100FFD2B100FFE5
+    D100FFFFFF00000000002F030000500400007006000090090000B00A0000CF0C
+    0000F00E0000FF201200FF3E3100FF5C5100FF7A7100FF979100FFB6B100FFD4
+    D100FFFFFF00000000002F000E00500017007000210090002B00B0003600CF00
+    4000F0004900FF115A00FF317000FF518600FF719C00FF91B200FFB1C800FFD1
+    DF00FFFFFF00000000002F0020005000360070004C0090006200B0007800CF00
+    8E00F000A400FF11B300FF31BE00FF51C700FF71D100FF91DC00FFB1E500FFD1
+    F000FFFFFF00000000002C002F004B0050006900700087009000A500B000C400
+    CF00E100F000F011FF00F231FF00F451FF00F671FF00F791FF00F9B1FF00FBD1
+    FF00FFFFFF00000000001B002F002D0050003F007000520090006300B0007600
+    CF008800F0009911FF00A631FF00B451FF00C271FF00CF91FF00DCB1FF00EBD1
+    FF00FFFFFF000000000008002F000E005000150070001B0090002100B0002600
+    CF002C00F0003E11FF005831FF007151FF008C71FF00A691FF00BFB1FF00DAD1
+    FF00FFFFFF000000000000000000000000000000000000000000004040404040
+    40000000000000000000504949494949494000000000000000503803160F1119
+    4249400000000000503D3602010B080506414940000000504A37393A35444315
+    09064C4A400000504A1D3B3F3E3E4A4B130A314A400000504A100C483E3E4A4A
+    23212B4A400000504A0E08464A4A4A4A2F242C4A400000504A1204184F4A4A34
+    291C324A400000504A3C070D14272E2A25224D4A400000504A4A1E1A172D3028
+    26474A4A400000504A4A4A201F1B33454E4A4A4A40000050504A4A4A4A4A4A4A
+    4A4A4A4040000050000000000000000000000000400000000000000000000000
+    000000000000F81F0000F00F0000E0070000C003000080010000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00003FFC00002800000010000000200000000100200000000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    0000000000FF000000FF000000FF000000FF000000FF000000FF000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    00FF808080FF808080FF808080FF808080FF808080FF808080FF000000FF0000
+    0000000000000000000000000000000000000000000000000000000000FFFFFF
+    FFFFC0C0C0FFC0C0C0FFC0C0C0FFC0C0C0FFC0C0C0FFC0C0C0FF808080FF0000
+    00FF0000000000000000000000000000000000000000000000FFFFFFFFFF7B35
+    D0FF713064FFAF4922FFAA3810FFA4361DFFAF4B3FFFC5969FFFC0C0C0FF8080
+    80FF000000FF000000000000000000000000000000FFFFFFFFFF8D31D9FF4300
+    C1FF3B0075FF7B150AFFA92D04FF9E2202FF971900FF981C0BFFC28384FFC0C0
+    C0FF808080FF000000FF00000000000000FFFFFFFFFFCBCBCBFF5608CCFF6D05
+    E6FF7915EDFF7D358DFFD1B9A3FFD2A88EFFAE4620FFA02605FF9A1F0BFFD1C1
+    C4FFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFF8D265EFF8D1E
+    A5FFA031F6FF843EDEFF843EDEFFCBCBCBFFD7C4C3FFB24509FFA12900FFC482
+    61FFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFFAB3F10FFA02F
+    0CFFCDAACDFF843EDEFF843EDEFFCBCBCBFFCBCBCBFFDE9F0AFFDE8000FFD697
+    33FFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFFA43313FF9E20
+    00FFD7C2A5FFCBCBCBFFCBCBCBFFCBCBCBFFCBCBCBFFF0C009FFEA9B00FFDAA1
+    34FFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFFAB3D32FF9215
+    00FFBA5F29FFE3E8E8FFCBCBCBFFCBCBCBFFE9D769FFF1B201FFE07D00FFDCBA
+    75FFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFFBF7B84FF9B1F
+    0EFFB33D06FFBF6308FFDCAE11FFEDC408FFF2B701FFEB9E00FFDA8405FFDDDD
+    D1FFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFFCBCBCBFFA84B
+    45FFB7423AFFB4562DFFECB72BFFF9CD21FFEDAC06FFE0960DFFDBD0A6FFCBCB
+    CBFFCBCBCBFF808080FF000000FF000000FFFFFFFFFFCBCBCBFFCBCBCBFFCBCB
+    CBFFB4726BFFAE5959FFB55939FFE3B261FFE0C39FFFDEDBD4FFCBCBCBFFCBCB
+    CBFFCBCBCBFF808080FF000000FF000000FFFFFFFFFFFFFFFFFFCBCBCBFFCBCB
+    CBFFCBCBCBFFCBCBCBFFCBCBCBFFCBCBCBFFCBCBCBFFCBCBCBFFCBCBCBFFCBCB
+    CBFF808080FF808080FF000000FF000000FFFFFFFFFF000000FF000000FF0000
+    00FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF0000
+    00FF000000FF808080FF000000FF000000FF000000FF00000000000000000000
+    0000000000000000000000000000000000000000000000000000000000000000
+    000000000000000000FF000000FFF81FAC41F00FAC41E007AC41C003AC418001
+    AC410000AC410000AC410000AC410000AC410000AC410000AC410000AC410000
+    AC410000AC410000AC413FFCAC41}
+  Position = poScreenCenter
+  WindowState = wsMinimized
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 176
+    Top = 8
+    Width = 3
+    Height = 13
+  end
+  object Label1: TLabel
+    Left = 14
+    Top = 425
+    Width = 61
+    Height = 20
+    Caption = #48372#47932#52286#44592'A'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 14
+    Top = 551
+    Width = 61
+    Height = 20
+    Caption = #48372#47932#52286#44592'B'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Top = 177
+    Width = 76
+    Height = 20
+    Caption = 'RealTime'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object DateTimePicker1: TDateTimePicker
+    Left = 8
+    Top = 8
+    Width = 89
+    Height = 21
+    Date = 42506.000000000000000000
+    Time = 0.049598368052102160
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 8
+    Top = 105
+    Width = 305
+    Height = 66
+    Lines.Strings = (
+      '')
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 34
+    Width = 89
+    Height = 28
+    Caption = #54924#49324#51221#48372#44032#51256#50724#44592
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object WebBrowser1: TWebBrowser
+    Left = 427
+    Top = 629
+    Width = 42
+    Height = 26
+    TabOrder = 3
+    ControlData = {
+      4C00000057040000B00200000000000000000000000000000000000000000000
+      000000004C000000000000000000000001000000E0D057007335CF11AE690800
+      2B2E126208000000000000004C0000000114020000000000C000000000000046
+      8000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000100000000000000000000000000000000000000}
+  end
+  object Button2: TButton
+    Left = 103
+    Top = 34
+    Width = 105
+    Height = 28
+    Caption = #51452#44032#51221#48372
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Edit3: TEdit
+    Left = 103
+    Top = 8
+    Width = 50
+    Height = 21
+    TabOrder = 5
+    Text = '1'
+  end
+  object Button5: TButton
+    Left = 319
+    Top = 105
+    Width = 99
+    Height = 66
+    Caption = #44032#51256#50724#44592
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object CheckBox1: TCheckBox
+    Left = 103
+    Top = 68
+    Width = 82
+    Height = 31
+    Caption = 'TIME STOP'
+    TabOrder = 7
+    OnClick = CheckBox1Click
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 69
+    Width = 89
+    Height = 21
+    TabOrder = 8
+  end
+  object Button3: TButton
+    Left = 474
+    Top = 136
+    Width = 66
+    Height = 27
+    Caption = #48516#45817#51221#48372
+    TabOrder = 9
+    OnClick = Button3Click
+  end
+  object Edit2: TEdit
+    Left = 200
+    Top = 72
+    Width = 137
+    Height = 21
+    TabOrder = 10
+    Text = '172.16.0.14,2005'
+  end
+  object ListBox2: TListBox
+    Left = 594
+    Top = 664
+    Width = 90
+    Height = 25
+    ItemHeight = 13
+    TabOrder = 11
+  end
+  object ListBox1: TListBox
+    Left = 498
+    Top = 664
+    Width = 90
+    Height = 25
+    ItemHeight = 13
+    TabOrder = 12
+  end
+  object ListBox3: TListBox
+    Left = 690
+    Top = 664
+    Width = 82
+    Height = 25
+    ItemHeight = 13
+    TabOrder = 13
+  end
+  object ListBox4: TListBox
+    Left = 498
+    Top = 695
+    Width = 90
+    Height = 26
+    ItemHeight = 13
+    TabOrder = 14
+  end
+  object ListBox5: TListBox
+    Left = 594
+    Top = 695
+    Width = 90
+    Height = 26
+    ItemHeight = 13
+    TabOrder = 15
+  end
+  object ListBox6: TListBox
+    Left = 690
+    Top = 695
+    Width = 82
+    Height = 26
+    ItemHeight = 13
+    TabOrder = 16
+  end
+  object Button6: TButton
+    Left = 474
+    Top = 64
+    Width = 70
+    Height = 31
+    Caption = #48372#47932#52286#44592'A'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 17
+    OnClick = Button6Click
+  end
+  object Button11: TButton
+    Left = 474
+    Top = 99
+    Width = 58
+    Height = 31
+    Caption = #48372#47932#52286#44592'B'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 18
+    OnClick = Button11Click
+  end
+  object Button4: TButton
+    Left = 475
+    Top = 25
+    Width = 58
+    Height = 33
+    Caption = 'RealTime'
+    TabOrder = 19
+    OnClick = Button4Click
+  end
+  object CheckBox2: TCheckBox
+    Left = 360
+    Top = 72
+    Width = 65
+    Height = 25
+    Caption = #50864#47049#51452
+    Checked = True
+    State = cbChecked
+    TabOrder = 20
+  end
+  object ListBox7: TListBox
+    Left = 185
+    Top = 201
+    Width = 104
+    Height = 100
+    ItemHeight = 13
+    TabOrder = 21
+  end
+  object ListBox8: TListBox
+    Left = 295
+    Top = 201
+    Width = 177
+    Height = 100
+    ItemHeight = 13
+    TabOrder = 22
+  end
+  object ListBox9: TListBox
+    Left = 8
+    Top = 201
+    Width = 171
+    Height = 100
+    ItemHeight = 13
+    TabOrder = 23
+  end
+  object ProgressBar1: TProgressBar
+    Left = 319
+    Top = 177
+    Width = 150
+    Height = 18
+    Step = 1
+    TabOrder = 24
+  end
+  object ListBox10: TListBox
+    Left = 8
+    Top = 307
+    Width = 171
+    Height = 100
+    ItemHeight = 13
+    TabOrder = 25
+  end
+  object ListBox11: TListBox
+    Left = 185
+    Top = 307
+    Width = 104
+    Height = 100
+    ItemHeight = 13
+    TabOrder = 26
+  end
+  object ListBox12: TListBox
+    Left = 295
+    Top = 307
+    Width = 177
+    Height = 100
+    ItemHeight = 13
+    TabOrder = 27
+  end
+  object Button7: TButton
+    Left = 215
+    Top = 32
+    Width = 91
+    Height = 34
+    Caption = '10%'#48516#45817#51221#48372
+    TabOrder = 28
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 312
+    Top = 35
+    Width = 70
+    Height = 31
+    Caption = '10%'#49692#44036#54252#52265
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 29
+    OnClick = Button8Click
+  end
+  object Memo2: TMemo
+    Left = 8
+    Top = 451
+    Width = 161
+    Height = 89
+    ScrollBars = ssVertical
+    TabOrder = 31
+  end
+  object Memo3: TMemo
+    Left = 175
+    Top = 451
+    Width = 131
+    Height = 89
+    ScrollBars = ssVertical
+    TabOrder = 33
+  end
+  object Memo4: TMemo
+    Left = 312
+    Top = 451
+    Width = 161
+    Height = 89
+    TabOrder = 35
+  end
+  object Memo5: TMemo
+    Left = 8
+    Top = 577
+    Width = 161
+    Height = 89
+    TabOrder = 30
+  end
+  object Memo6: TMemo
+    Left = 175
+    Top = 577
+    Width = 131
+    Height = 89
+    TabOrder = 32
+  end
+  object Memo7: TMemo
+    Left = 312
+    Top = 577
+    Width = 161
+    Height = 89
+    ScrollBars = ssVertical
+    TabOrder = 34
+  end
+  object IdHTTP1: TIdHTTP
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.ContentRangeEnd = -1
+    Request.ContentRangeStart = -1
+    Request.ContentRangeInstanceLength = -1
+    Request.Accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    Request.Ranges.Units = 'bytes'
+    Request.Ranges = <>
+    HTTPOptions = [hoForceEncodeParams]
+    Left = 358
+    Top = 629
+  end
+  object Timer1: TTimer
+    Interval = 60000
+    OnTimer = Button5Click
+    Left = 128
+    Top = 176
+  end
+  object ADOConnection1: TADOConnection
+    ConnectionString = 
+      'Provider=SQLOLEDB.1;Password=Link2sky;Persist Security Info=True' +
+      ';User ID=sa;Initial Catalog=STOCK_INFO;Data Source=localhost'
+    LoginPrompt = False
+    Provider = 'SQLOLEDB.1'
+    Left = 230
+    Top = 624
+  end
+  object ADOQuery1: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 174
+    Top = 624
+  end
+  object ADOQuery2: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 302
+    Top = 624
+  end
+  object ADOQuery3: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 518
+    Top = 632
+  end
+  object ADOQuery4: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 566
+    Top = 640
+  end
+  object ADOQuery5: TADOQuery
+    Connection = ADOConnection1
+    Parameters = <>
+    Left = 558
+    Top = 592
+  end
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Server=localhost'
+      'User_Name=sa'
+      'Password=Link2sky'
+      'ApplicationName=Enterprise/Architect/Ultimate'
+      'Workstation=localhost'
+      'MARS=yes'
+      'Database=STOCK_INFO'
+      'DriverID=MSSQL')
+    Left = 390
+    Top = 664
+  end
+  object FDQuery2: TFDQuery
+    Connection = FDConnection1
+    Left = 454
+    Top = 680
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    Left = 488
+    Top = 288
+  end
+  object FDStoredProc1: TFDStoredProc
+    Connection = FDConnection1
+    Left = 504
+    Top = 384
+  end
+end
